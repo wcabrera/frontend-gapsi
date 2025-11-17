@@ -236,7 +236,7 @@ src/
 
 ## 🎨 Funcionalidades
 
-### 1. Pantalla de Bienvenida (Peso 5)
+### 1. Pantalla de Bienvenida
 
 **Ruta:** `/`
 
@@ -247,7 +247,7 @@ src/
 - ✅ Botón "Continuar" que navega a `/providers`
 - ✅ Indicadores de carga y manejo de errores
 
-### 2. Gestión de Proveedores (Peso 6 + 3)
+### 2. Gestión de Proveedores
 
 **Ruta:** `/providers`
 
@@ -283,7 +283,7 @@ src/
 - ✅ Actualización automática de la lista
 - ✅ Toast de éxito al eliminar
 
-### 3. Header (Peso 3)
+### 3. Header
 
 - ✅ Texto "e-Commerce Gapsi"
 - ✅ Logo de Gapsi (con fallback si no existe)
@@ -423,32 +423,6 @@ DELETE http://localhost:8080/providers/{id}
 - ✅ Memoización donde es necesario
 - ✅ Optimización de re-renders con Redux
 
-## 🎓 Conceptos Clave para la Entrevista
-
-### ¿Por qué React 17 y no React 18?
-
-React 17 fue elegido por:
-- Compatibilidad con librerías legacy
-- Sintaxis de renderizado familiar: `ReactDOM.render()`
-- Sin cambios breaking de concurrent features
-- Transición gradual recomendada por el equipo de React
-
-### ¿Por qué Redux Toolkit?
-
-- Reduce boilerplate en 70%
-- Incluye Immer para inmutabilidad
-- DevTools integradas
-- Estructura opinionada y mejores prácticas
-- Manejo de efectos secundarios con thunks
-
-### ¿Por qué react-window?
-
-- Más ligero que react-virtualized (10x menos peso)
-- Rendimiento excepcional
-- API simple y directa
-- Mantenido activamente
-- Ideal para tablas y listas largas
-
 ## 🐛 Troubleshooting
 
 ### Error: "React version mismatch"
@@ -493,4 +467,3 @@ Este proyecto es privado y fue desarrollado para fines de evaluación técnica.
 
 ---
 
-¿Preguntas o problemas? Revisa la documentación del código o consulta con el equipo técnico de Gapsi.
